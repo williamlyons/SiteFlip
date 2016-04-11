@@ -16,3 +16,8 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+.well{
+  border-color: #FFD700;
+  border-width: 6px;
+  border-style: ridge;
+}
