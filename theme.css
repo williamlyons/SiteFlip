@@ -43,3 +43,6 @@ nav {
   border-style: ridge;
   background-color: rgba(128, 128, 128, .3);
 }
+img{
+  min-width: 80%;
+}
