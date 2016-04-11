@@ -52,7 +52,7 @@ img{
   min-width: 90%;
   border-color: #FFD700;
   border-width: 4px;
-  border-style: ridge;
+  border-style: line;
 }
 table{
   min-width: 90%;
