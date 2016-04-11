@@ -49,11 +49,10 @@ img{
   margin-left: auto;
 }
 .row{
-  min-width: 90%;
   border-color: #FFD700;
   border-width: 4px;
   border-style: ridge;
-  background-color: rgba(25, 0, 25, .2);
+  background-color: rgba(25, 25, 25, .2);
 }
 .tablecenter{
   margin:0 auto;
