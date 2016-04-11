@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link href="../../dist/css/bootstrap-theme.min.css" rel="stylesheet">   
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CSE 247</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">Calendar</a></li>
+             <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Need Help? <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">TAs' Schedule</a></li>
+                 <li><a href="https://piazza.com">Piazza</a></li>
+                 <li><a href="https://bb.wustl.edu/webapps/login/">Blackboard</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Policies <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Disabilities</a></li>
+                <li><a href="#">Grading Policy</a></li>
+                <li><a href="#">Late Policy</a></li>
+                <li><a href="#">Collaboration</a></li>
+                <li><a href="https://google.github.io/styleguide/javaguide.html">Style Guide</a></li>
+                <li><a href="#">Attendance</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutorials on Eclipse and Subversive <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">Install Eclipse</a></li>
+                 <li><a href="#">Install and Use Subversive</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="https://docs.oracle.com/javase/8/docs/api/">Java API</a></li>
+                 <li><a href="http://www.eclipse.org/">Eclipse Site</a></li>
+               </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="page-header">
+        <h1>Calender<h1>
+        
+      
+      
+      <div class="col-md-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Lecture Number</th>
+                <th>Date</th>
+                <th>Lecture Slides</th>
+                <th>Lecture Video</th>
+                <th>Assignments</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>Jan 20</td>
+                <td><a href="https://docs.google.com/presentation/d/1HfSEuxkOobXUDyNA_zhDXf_2dTGugTpnPD8z5m1qgZY/edit#slide=id.p">Lecture 0</a></td>
+                <td>None</td>
+                <td>None</td>
+                <td>Look Tutorials Tab to see how to Install Java and Eclipse<td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jan 25</td>
+                <td><a href="http://www.cs.wustl.edu/~cytron/cse247/PDFs/9.pdf">Lecture 1</a></td>
+                <td>
+                <p><a href="http://www.cs.wustl.edu/~cytron/cse247/Cal/Videos/Lectures/linkedlist.mp4">Lecture 1</a></p>
+                <p><a href="http://www.cs.wustl.edu/~cytron/cse247/Cal/Videos/Lectures/demotiming.mp4">Timing Software Demo</a></p>
+                </td>
+                <td>None</td>
+                <td>Introduction to Trees<td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jan 27</td>
+                <td><a href="https://docs.google.com/presentation/d/1P45-9UneYk9uvchC-Gk27vsf60twuQVroHPRrwJZsjU/edit#slide=id.p">Lecture 2</a></td>
+                <td><a href="http://www.cs.wustl.edu/~cytron/cse247/Cal/Videos/Lectures/lab0demo.mp4">Lecture 2 Video</a></td>
+                <td><a href="/SiteFlip/Lab0.html">Lab 0</a></td>
+                <td>Stacks and Queues<td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Feb 1</td>
+                <td><a href="https://docs.google.com/presentation/d/1vyDtuv_5yQMa-NMfwAkZ_en7oKmQZiWWN_XnQPUG7UQ/edit#slide=id.p">Lecture 3</a></td>
+                <td>None</td>
+                <td>None</td>
+                <td>Asymptotic Complexity<td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Feb 3</td>
+                <td><a href="https://docs.google.com/presentation/d/1P45-9UneYk9uvchC-Gk27vsf60twuQVroHPRrwJZsjU/edit#slide=id.p">Lecture 4</a></td>
+                <td>None</td>
+                <td><a href= "/SiteFlip/Homework1.html</td>
+                <td>Asymptotic Complexity, Lab 0 due<td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Feb 8</td>
+                <td><a href="https://docs.google.com/presentation/d/1H4gdeALFsJ_NLklxc3PycCh48d-fRaIhcBZBOAG9CJo/edit">Lecture 5</a></td>
+                <td><a href="http://www.cs.wustl.edu/~cytron/cse247/Cal/Videos/Lectures/comparable.mp4">Lecture 5 Video</a></td>
+                <td>None</td>
+                <td>Priority Queues and Trees<td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Feb 10</td>
+                <td><a href="https://docs.google.com/presentation/d/1iKoTDAm0U73_NKEtW9WB_NJnNckT272dQmNJnS1bwnY/edit#slide=id.p">Lecture 6</a></td>
+                <td>None</td>
+                <td>None</td>
+                <td>Binary Heaps<td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Feb 15</td>
+                <td>None</td>
+                <td><p><a href = "https://wustl.app.box.com/login?redirect_url=%2Fs%2F8bjizort8i0hi9eh0hdnv0gekq4552gc">Binary Tree as an Array</a></p>
+                <p><a href = "https://wustl.app.box.com/login?redirect_url=%2Fs%2F7xbwmms606251kf1b2klf6u4u5jjhisn">Heap Infrastructure 1</a></p>
+                <p><a href = "https://wustl.app.box.com/login?redirect_url=%2Fs%2F888hvrolmd7d1zmwavxq6xllbn76baev">Heap Infrastructure 2</a></p>
+                <p><a href = "https://wustl.app.box.com/login?redirect_url=%2Fs%2Ff11z5noyjaadfonfo7nj3lbrr9vl5zoz">Tour of Lab 1 code</a></p>
+                </td>
+                <td>None</td>
+                <td>Instead of Going to Lecture Watch these videos<td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Feb 17</td>
+                <td><a href="https://docs.google.com/presentation/d/1sM1flbxpu2FV9CzlCFLtJZzOZecntPH7AcgVG5P1d3Q/edit#slide=id.p">Lecture 8</a></td>
+                <td>None</td>
+                <td><a href = "/SiteFlip/Lab1.html>Lab 1</a></td>
+                <td>Recurrances and Their Solutions<td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Feb 22</td>
+                <td><a href="https://docs.google.com/presentation/d/17zEtta_xhO2cSEuX7cCAW79bjmFKrASP3rgJyj0IiIo/edit">Lecture 9</a></td>
+                <td>None</td>
+                <td>None</td>
+                <td>Priority Queues and Trees<td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Feb 24</td>
+                <td><a href="https://docs.google.com/presentation/d/1Y7oQCAdB0MKESGKmzfKA5PQgTDTHkZtP_OcjR62fEmY/edit">Lecture 10</a></td>
+                <td>None</td>
+                <td>None</td>
+                <td>Shortest Path Algorithm<td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Feb 29</td>
+                <td>None</td>
+                <td>None</td>
+                <td><a href="/SiteFlip/Homework2.html">Homework 2</a></td>
+                <td>No Lecture<td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>March 7</td>
+                <td><a href = "https://docs.google.com/presentation/d/1BgruJuLs_MdtBbe1WFjwaXIKuhaeNdE5Alw6ACmmdcM/edit">Lecture 12</a></td>
+                <td><a href ="http://www.cs.wustl.edu/~cytron/cse247/Cal/Videos/Lectures/badshortestpath.mp4>Lecture 12 videos</a></td>
+                <td>None</td>
+                <td>Dijstra's Shortest Path Algorithm<td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>March 9</td>
+                <td><a href = "https://docs.google.com/presentation/d/1gdqPq3BuhsnIUlYJwczB86Z5xtmYT7jjK_FeUghAMzQ/edit">Lecture 13</a></td>
+                <td>None></td>
+                <td>None</td>
+                <td>Hashing<td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>March 11</td>
+                <td>None</td>
+                <td>None></td>
+                <td><a href="/SiteFlip/Lab2.html">Lab 2</a></td>
+                <td>Hashing<td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>March 21</td>
+                <td><a href="https://docs.google.com/presentation/d/1GPTtOZb_rbMk7xSlxCu6c5qIBFVCR9yHcJEaCN3DTok/edit#slide=id.p">Lecture 15</a></td>
+                <td>None></td>
+                <td>None</td>
+                <td>Hash functions<td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>March 23</td>
+                <td><a href="https://docs.google.com/presentation/d/1mjIHw6juZPks9cIHZvgVNXGhNqUnAd8J9bYberCHJ30/edit">Lecture 16</a></td>
+                <td>None></td>
+                <td>None</td>
+                <td>More Hash functions<td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>March 24</td>
+                <td><a href="https://docs.google.com/presentation/d/1Nz4J8dZemCyV3CH45HAsCr5Q8VlKRhhL2dRSsDYowsQ/edit#slide=id.p">Lecture 16</a></td>
+                <td>None></td>
+                <td>None</td>
+                <td>Binary Search Trees<td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       <div class="well">
+        <p>Thomas M. Cormen, Charles E. Leiserson, Ronald L Rivest, and Clifford Stein <a href="https://mitpress.mit.edu/books/introduction-algorithms">Introduction to Algorithms</a></p>
+      </div>
