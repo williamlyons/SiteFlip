@@ -32,3 +32,7 @@ nav {
   border-width: 4px;
   border-style: ridge;
 }
+.page-header{
+  border-bottom-color: #000000;
+  border-bottom-width: 3px;
+}
