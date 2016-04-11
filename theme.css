@@ -54,9 +54,7 @@ img{
   border-width: 4px;
   border-style: ridge;
 }
-table{
-  min-width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+.tablecenter{
+  margin:0 auto;
 }
 
